@@ -27,13 +27,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPreparation", "ExamPrep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvanceCExam", "AdvanceCExam\AdvanceCExam.csproj", "{5E1F8A4A-C260-4922-83ED-37911350061F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-Defining-Classes-Part1", "Homework-Defining-Classes-Part1\Homework-Defining-Classes-Part1.csproj", "{E76FD9BF-45EA-4DD9-A1B8-D4A26EE9E907}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Homework-Defining-Classes-Part1", "Homework-Defining-Classes-Part1\01.Homework-Defining-Classes-Part1.csproj", "{E76FD9BF-45EA-4DD9-A1B8-D4A26EE9E907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-Defining-Classes-Part1-StudentProject", "Homework-Defining-Classes-Part1-StudentProject\Homework-Defining-Classes-Part1-StudentProject.csproj", "{B931BF4A-1439-4888-B861-D0511A1F1B1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Homework-Defining-Classes-Part1-StudentProject", "Homework-Defining-Classes-Part1-StudentProject\01.Homework-Defining-Classes-Part1-StudentProject.csproj", "{B931BF4A-1439-4888-B861-D0511A1F1B1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 .Defining-Classes-Part-2-Live", "Defining-Classes-Part-2-Live\02 .Defining-Classes-Part-2-Live.csproj", "{EE61E80A-7C7A-4DC0-8120-C7937EEDE5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-Defining-Classes-Part2", "Homework-Defining-Classes-Part2\Homework-Defining-Classes-Part2.csproj", "{565A4CBC-A639-46C8-913D-BBA1A19E0DDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Homework-Defining-Classes-Part2", "Homework-Defining-Classes-Part2\02.Homework-Defining-Classes-Part2.csproj", "{565A4CBC-A639-46C8-913D-BBA1A19E0DDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-MineExam", "OOP-MineExam\OOP-MineExam.csproj", "{76EE9907-E639-49A1-AC71-000BA281E78E}"
 EndProject
@@ -43,9 +43,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Homework-Extension-Metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. OOP-Principles-Part-1", "04. OOP-Principles-Part-1\04. OOP-Principles-Part-1.csproj", "{93ACC592-BBD0-42E3-972D-762AB30F7720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework OOP-Principles-Part-1", "Homework OOP-Principles-Part-1\Homework OOP-Principles-Part-1.csproj", "{ACC74F1C-A059-41A2-8148-DE247087C4DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Homework OOP-Principles-Part-1", "Homework OOP-Principles-Part-1\01.Homework OOP-Principles-Part-1.csproj", "{ACC74F1C-A059-41A2-8148-DE247087C4DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. OOP-Principles-Part-2", "05. OOP-Principles-Part-2\05. OOP-Principles-Part-2.csproj", "{5EF91728-334B-40C4-B704-4F1BC5A9E955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Common-Type-System", "06. Common-Type-System\06. Common-Type-System.csproj", "{DFC43492-D565-484D-B54C-918008C2AD9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{5EF91728-334B-40C4-B704-4F1BC5A9E955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF91728-334B-40C4-B704-4F1BC5A9E955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF91728-334B-40C4-B704-4F1BC5A9E955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC43492-D565-484D-B54C-918008C2AD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC43492-D565-484D-B54C-918008C2AD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC43492-D565-484D-B54C-918008C2AD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC43492-D565-484D-B54C-918008C2AD9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

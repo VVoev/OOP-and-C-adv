@@ -67,9 +67,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Homework-Defining-Classes-Part1\Homework-Defining-Classes-Part1.csproj">
+    <ProjectReference Include="..\Homework-Defining-Classes-Part1\01.Homework-Defining-Classes-Part1.csproj">
       <Project>{E76FD9BF-45EA-4DD9-A1B8-D4A26EE9E907}</Project>
-      <Name>Homework-Defining-Classes-Part1</Name>
+      <Name>01.Homework-Defining-Classes-Part1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
