@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 using ExtensionSB;
 using ExtensionIenumerable;
 using StudentOp;
-using Divese7And3;
-using TimerDelegate;
+
 
 namespace _03.Homework_Extension_Methods_Delegates_Lambda_LINQ
 {
@@ -26,10 +25,10 @@ namespace _03.Homework_Extension_Methods_Delegates_Lambda_LINQ
             StudentOperations.Go();
 
             //Problem Divisible by 7 and 3
-            Divisibleby7and3.Go();
+            //Divisibleby7and3.Go();
 
             //Timer
-            DelegateTimerF.Go();
+            //DelegateTimerF.Go();
 
             //Events 
             //Missing
