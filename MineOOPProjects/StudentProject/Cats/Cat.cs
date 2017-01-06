@@ -11,7 +11,7 @@ namespace MineOOPProjects.StudentProject.Cats
     {
         private Breed breed;
 
-        public Breed Breed { get; set; }
+        public Breed Breed { get { return this.breed; }set { this.breed = value; } }
         public Cat(int age, int numberOfTeeth, int numberOfLegs, bool isEatingMeat,Breed breed) : base(age, numberOfTeeth, numberOfLegs, isEatingMeat)
         {
             this.Breed = breed;
@@ -28,5 +28,11 @@ namespace MineOOPProjects.StudentProject.Cats
             sb.AppendLine($"Breed:   {this.Breed}");
             return sb.ToString();
         }
+        public override void Talk()
+        {
+            Console.WriteLine($"{this.GetType().Name} with breed {this.Breed} says Meowwww");
+        }
+
+
     }
 }

@@ -15,7 +15,7 @@ namespace MainAbstract
 
         public override string GetName()
         {
-            return "kitten";
+            return $"Djingal";
         }
 
         public override void SayMiau()

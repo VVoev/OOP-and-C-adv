@@ -49,7 +49,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. OOP-Principles-Part-2",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Common-Type-System", "06. Common-Type-System\06. Common-Type-System.csproj", "{DFC43492-D565-484D-B54C-918008C2AD9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineOOPProjects", "MineOOPProjects\MineOOPProjects.csproj", "{E864FF65-0143-4DC1-9EBD-A8919776C429}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-MineExams", "MineOOPProjects\OOP-MineExams.csproj", "{E864FF65-0143-4DC1-9EBD-A8919776C429}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

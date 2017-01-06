@@ -42,9 +42,14 @@ namespace MineOOPProjects.StudentProject.Students
             sb.AppendLine($"Faculty : {this.FacultyNumber}");
             return sb.ToString();
         }
+        public override void Talk()
+        {
+            Console.WriteLine($"{this.GetType().Name} with name {this.Name } says : Hello how are you ;)");
+        }
+    }
 
 
 
 
     }
-}
+

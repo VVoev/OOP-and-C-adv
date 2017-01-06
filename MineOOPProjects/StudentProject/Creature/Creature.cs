@@ -21,6 +21,11 @@ namespace MineOOPProjects.StudentProject.Person.Creature
         {
             this.Age = age;
         }
+        public virtual void Talk()
+        {
+
+        }
+
 
 
     }

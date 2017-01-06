@@ -12,6 +12,23 @@ namespace MineOOPProjects
         static void Main()
         {
             Test.Go();
+            Console.WriteLine(RecursiveCatalan(5));
+            
+           
         }
+        public static int RecursiveCatalan(int n)
+        {
+            if (n <= 1)
+            {
+                return n;
+            }
+            else
+            {
+                return n*RecursiveCatalan(n - 1);
+            }
+        }
+
+
+
     }
 }

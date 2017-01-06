@@ -39,6 +39,7 @@ namespace MineOOPProjects.StudentProject
             foreach (var creature in listCreatures)
             {
                 Console.WriteLine(creature);
+                creature.Talk();
             }
 
         }
