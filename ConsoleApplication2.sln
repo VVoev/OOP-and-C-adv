@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Common-Type-System", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-MineExams", "MineOOPProjects\OOP-MineExams.csproj", "{E864FF65-0143-4DC1-9EBD-A8919776C429}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Homework OOP Principles-Part 2", "05.Homework OOP Principles-Part 2\05.Homework OOP Principles-Part 2.csproj", "{735FF9D4-01A8-4F9D-A060-56C93D600B45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{E864FF65-0143-4DC1-9EBD-A8919776C429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E864FF65-0143-4DC1-9EBD-A8919776C429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E864FF65-0143-4DC1-9EBD-A8919776C429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735FF9D4-01A8-4F9D-A060-56C93D600B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735FF9D4-01A8-4F9D-A060-56C93D600B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735FF9D4-01A8-4F9D-A060-56C93D600B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735FF9D4-01A8-4F9D-A060-56C93D600B45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
