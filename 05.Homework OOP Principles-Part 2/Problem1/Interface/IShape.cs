@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05.Homework_OOP_Principles_Part_2
+namespace _05.Homework_OOP_Principles_Part_2.Problem1.Interface
 {
-    class Program
+    public interface IShape
     {
-        static void Main(string[] args)
-        {
-        }
+        double CalculateSurface();
     }
 }
