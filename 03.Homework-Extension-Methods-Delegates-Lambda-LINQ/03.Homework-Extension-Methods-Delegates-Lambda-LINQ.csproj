@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DelegateTimer\Program.cs" />
-    <Compile Include="DelegateTimer\Timer.cs" />
-    <Compile Include="Divisible by 7 and 3\Divisibleby7and3.cs" />
+    <Compile Include="DelegateTimerCorrect\Program.cs" />
+    <Compile Include="DelegateTimerCorrect\Timer.cs" />
+    <Compile Include="DivisableBy7and3Correct\Divisibleby7and3.cs" />
     <Compile Include="IEnumerableProject\ExtensionIEnumerable.cs" />
     <Compile Include="IEnumerableProject\IEnumerableExtensions.cs" />
     <Compile Include="Program.cs" />
