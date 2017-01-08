@@ -50,6 +50,14 @@
     <Compile Include="Problem1\Interface\IShape.cs" />
     <Compile Include="Problem1\ShapeTest.cs" />
     <Compile Include="Problem2\BankAccountTest.cs" />
+    <Compile Include="Problem2\BankCustomers\Company.cs" />
+    <Compile Include="Problem2\BankCustomers\Customer.cs" />
+    <Compile Include="Problem2\BankCustomers\Individual.cs" />
+    <Compile Include="Problem2\BankInterface\IAcountable.cs" />
+    <Compile Include="Problem2\Bank\Account.cs" />
+    <Compile Include="Problem2\Bank\Deposit.cs" />
+    <Compile Include="Problem2\Bank\Loan.cs" />
+    <Compile Include="Problem2\Bank\Mortage.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
