@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PolymorhpZoo\Interfaces\IAnimal.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Animal.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Cat.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Felime.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Food.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Mammal.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Mouse.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Test.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Tiger.cs" />
+    <Compile Include="PolymorhpZoo\WildAnimals\Zebra.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentProject\Cats\Breed.cs" />
@@ -56,6 +66,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
