@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace _05.Homework_OOP_Principles_Part_2.Problem2.BankCustomers
 {
-    class Company
+    class Company : Customer
     {
+        public Company(string customerName) : base(customerName)
+        {
+        }
     }
 }

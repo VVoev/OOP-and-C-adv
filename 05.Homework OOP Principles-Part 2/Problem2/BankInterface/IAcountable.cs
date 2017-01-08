@@ -8,6 +8,6 @@ namespace _05.Homework_OOP_Principles_Part_2.Problem2.BankInterface
 {
     public interface IAcountable
     {
-        decimal CalculateInterest();
+        decimal CalculateInterest(int months);
     }
 }
