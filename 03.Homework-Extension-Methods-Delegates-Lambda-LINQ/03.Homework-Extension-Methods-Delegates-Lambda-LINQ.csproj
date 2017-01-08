@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DelegateTimer\DelegateTimerF.cs" />
+    <Compile Include="DelegateTimer\Program.cs" />
     <Compile Include="DelegateTimer\Timer.cs" />
     <Compile Include="Divisible by 7 and 3\Divisibleby7and3.cs" />
     <Compile Include="IEnumerableProject\ExtensionIEnumerable.cs" />
