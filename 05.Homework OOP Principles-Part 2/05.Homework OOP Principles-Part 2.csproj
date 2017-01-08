@@ -49,6 +49,7 @@
     <Compile Include="Problem1\Figures\Triangle.cs" />
     <Compile Include="Problem1\Interface\IShape.cs" />
     <Compile Include="Problem1\ShapeTest.cs" />
+    <Compile Include="Problem2\BankAccountTest.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,7 +57,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Problem2\" />
     <Folder Include="Problem3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

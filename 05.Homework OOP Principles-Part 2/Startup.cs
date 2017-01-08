@@ -1,4 +1,5 @@
-﻿using _05.Homework_OOP_Principles_ShapeTest;
+﻿using _05.Homework_OOP_Principles_Part_2.Problem2;
+using _05.Homework_OOP_Principles_ShapeTest;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,10 @@ namespace _05.Homework_OOP_Principles_Part_2
             //.1 Problem Shapes
             Separate("Problem Shapes");
             ShapeTest.Go();
+
+            //2. BankAccountTest
+            Separate("BankAccountTest");
+            BankAccountTest.Go();
 
 
         }
