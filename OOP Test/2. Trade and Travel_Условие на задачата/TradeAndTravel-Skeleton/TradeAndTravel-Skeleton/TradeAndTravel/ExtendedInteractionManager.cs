@@ -28,11 +28,33 @@ namespace TradeAndTravel
             {
                 case "mine":
                     return new Mine(locationName);
+                case "forest":
+                    return new Forest(locationName);
                 default:
                     return base.CreateLocation(locationTypeString, locationName);
-            }
-            
+            }            
         }
 
+        protected override void HandlePersonCommand(string[] commandWords, Person actor)
+        {
+            switch (commandWords[1])
+            {
+                case "gather":
+                    HandleGatherInteraction(actor,commandWords[2]);
+                    break;
+                default:
+                        base.HandlePersonCommand(commandWords, actor); break;
+            }
+                  
+        }
+
+        private void HandleGatherInteraction(Person actor,string itemName)
+        {
+            if (actor.Location.LocationType == LocationType.Forest
+                && actor.ListInventory().Any(x => x.ItemType == ItemType.Weapon));
+            {
+                this.AddToPerson(actor, new Wood(itemName));
+            }
+        }
     }
 }
