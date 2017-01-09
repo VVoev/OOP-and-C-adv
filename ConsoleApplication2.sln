@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-MineExams", "MineOOPPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Homework OOP Principles-Part 2", "05.Homework OOP Principles-Part 2\05.Homework OOP Principles-Part 2.csproj", "{735FF9D4-01A8-4F9D-A060-56C93D600B45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarMachines", "OOP Test\1. War Machines_Условие на задачата\WarMachines-Skeleton\WarMachines\WarMachines.csproj", "{96191518-4094-4BAE-B581-8A854CCE52F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{735FF9D4-01A8-4F9D-A060-56C93D600B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735FF9D4-01A8-4F9D-A060-56C93D600B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735FF9D4-01A8-4F9D-A060-56C93D600B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96191518-4094-4BAE-B581-8A854CCE52F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96191518-4094-4BAE-B581-8A854CCE52F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96191518-4094-4BAE-B581-8A854CCE52F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96191518-4094-4BAE-B581-8A854CCE52F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
