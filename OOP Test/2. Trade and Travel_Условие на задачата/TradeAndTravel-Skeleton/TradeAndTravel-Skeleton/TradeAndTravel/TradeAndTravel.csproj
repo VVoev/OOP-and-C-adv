@@ -53,6 +53,7 @@
     <Compile Include="ITraveller.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="LocationType.cs" />
+    <Compile Include="Mine.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

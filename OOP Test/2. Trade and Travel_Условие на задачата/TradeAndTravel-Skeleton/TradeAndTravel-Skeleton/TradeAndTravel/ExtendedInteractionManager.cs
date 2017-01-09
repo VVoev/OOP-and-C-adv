@@ -22,6 +22,17 @@ namespace TradeAndTravel
                     return base.CreateItem(itemTypeString, itemNameString, itemLocation, item);
             }
         }
-        
+        protected override Location CreateLocation(string locationTypeString, string locationName)
+        {
+            switch (locationTypeString)
+            {
+                case "mine":
+                    return new Mine(locationName);
+                default:
+                    return base.CreateLocation(locationTypeString, locationName);
+            }
+            
+        }
+
     }
 }
