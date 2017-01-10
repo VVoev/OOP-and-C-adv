@@ -40,7 +40,7 @@ namespace TradeAndTravel
             switch (commandWords[1])
             {
                 case "gather":
-                    HandleGatherInteraction(actor,commandWords[2]);
+                    this.HandleGatherInteraction(actor,commandWords[2]);
                     break;
                 default:
                         base.HandlePersonCommand(commandWords, actor); break;
@@ -51,10 +51,17 @@ namespace TradeAndTravel
         private void HandleGatherInteraction(Person actor,string itemName)
         {
             if (actor.Location.LocationType == LocationType.Forest
-                && actor.ListInventory().Any(x => x.ItemType == ItemType.Weapon));
+                && actor.ListInventory().Any(x => x.ItemType == ItemType.Weapon))
             {
-                this.AddToPerson(actor, new Wood(itemName));
+                AddToPerson(actor, new Wood(itemName));
+            }
+            if (actor.Location.LocationType == LocationType.Mine
+                && actor.ListInventory().Any(x => x.ItemType == ItemType.Armor))
+            {
+                AddToPerson(actor, new Iron(itemName));
+            }
+               
+
             }
         }
     }
-}
