@@ -1,4 +1,4 @@
-﻿namespace Action_And_Func
+﻿    namespace Action_And_Func
 {
     using OOP_MineExam.CustomSettings;
     using System;
