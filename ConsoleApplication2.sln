@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsandTextProcessingLiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAndTextHomework", "StringAndTextHomework\StringAndTextHomework.csproj", "{FDE12538-26D5-4754-BDEB-9EEEF3458885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 .Defining-Classes-Part-1-Live", "Defining-Classes-Part-1-Live\01 .Defining-Classes-Part-1-Live.csproj", "{0AEB75E5-F749-46B9-A613-06B46C617FB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Defining-Classes-Part-1-Live", "Defining-Classes-Part-1-Live\01.Defining-Classes-Part-1-Live.csproj", "{0AEB75E5-F749-46B9-A613-06B46C617FB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPreparation", "ExamPreparation\ExamPreparation.csproj", "{D4F3D22E-F8B3-4346-AFA0-04EDFF6ED5CE}"
 EndProject
