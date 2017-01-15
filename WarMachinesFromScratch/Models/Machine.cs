@@ -63,5 +63,11 @@ namespace WarMachinesFromScratch.Models
         {
             this.targets.Add(target);
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+            //Todo makeReport Machine
+        }
     }
 }

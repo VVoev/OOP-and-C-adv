@@ -50,7 +50,10 @@
     <Compile Include="Interfaces\IPilot.cs" />
     <Compile Include="Interfaces\ITank.cs" />
     <Compile Include="Interfaces\IWarMAchineEngine.cs" />
+    <Compile Include="Models\Fighter.cs" />
     <Compile Include="Models\Machine.cs" />
+    <Compile Include="Models\Pilot.cs" />
+    <Compile Include="Models\Tank.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
