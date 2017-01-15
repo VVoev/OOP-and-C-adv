@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DFC43492-D565-484D-B54C-918008C2AD9D}</ProjectGuid>
+    <ProjectGuid>{609B8505-1DF6-43B9-B8FC-BF867EE40FDE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_06.Common_Type_System</RootNamespace>
-    <AssemblyName>_06.Common_Type_System</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>OOPFromScratch</RootNamespace>
+    <AssemblyName>OOPFromScratch</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -43,28 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boxing-and-Unboxing\BoxingUnboxing.cs" />
-    <Compile Include="BoxingUnboxingPrimitiveTypes\BoxingUnboxingPrimitives.cs" />
-    <Compile Include="DynamicTypes\DynamicTypesExample.cs" />
-    <Compile Include="Implementing-IComparable\Implementing IComparable.cs" />
-    <Compile Include="Implementing-IEnumerable\Implementing IEnumerable.cs" />
-    <Compile Include="Implementing-IEnumerable\LinkedList.cs" />
-    <Compile Include="IsAndAsOperators\PalyWithOperatorsIsAndAs.cs" />
-    <Compile Include="NullableTypess\NullableTypes.cs" />
-    <Compile Include="ObjectCloning\LinkedList.cs" />
-    <Compile Include="ObjectCloning\ObjectCloning.cs" />
-    <Compile Include="PassingOutParameters\PassingOutParameters.cs" />
-    <Compile Include="PassingRefParameters\PassingRefParameters.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Interfaces\Engine\ICommand.cs" />
+    <Compile Include="Interfaces\Engine\ICompanyFactory.cs" />
+    <Compile Include="Interfaces\Engine\IFurnitureFactory.cs" />
+    <Compile Include="Interfaces\Engine\IFurnitureMAnufacturerEngine.cs" />
+    <Compile Include="Interfaces\Engine\IRenderer.cs" />
+    <Compile Include="Interfaces\Models\IAdjustableChair.cs" />
+    <Compile Include="Interfaces\Models\IChair.cs" />
+    <Compile Include="Interfaces\Models\ICompany.cs" />
+    <Compile Include="Interfaces\Models\IConvertibleChair.cs" />
+    <Compile Include="Interfaces\Models\IDesk.cs" />
+    <Compile Include="Interfaces\Models\IFurniture.cs" />
+    <Compile Include="Interfaces\Models\ITable.cs" />
+    <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="System.Object-Overloading\OverloadingSystemObject.cs" />
-    <Compile Include="System.Object-Overloading\Student.cs" />
-    <Compile Include="ValueAndReferenceTypes\ValueAndReferenceTypes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Engine\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
