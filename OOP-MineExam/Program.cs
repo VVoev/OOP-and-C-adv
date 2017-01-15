@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OOP_MineExam.CofeeProject;
 
 namespace OOP_MineExam
 {
@@ -18,6 +19,7 @@ namespace OOP_MineExam
             Race.Go();
             Test.Go();
             Linq.Go();
+            Cofee.Go();
             
         }
     }
