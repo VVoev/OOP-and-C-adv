@@ -57,6 +57,9 @@
     <Compile Include="Interfaces\Models\IDesk.cs" />
     <Compile Include="Interfaces\Models\IFurniture.cs" />
     <Compile Include="Interfaces\Models\ITable.cs" />
+    <Compile Include="Models\Chair.cs" />
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\Furniture.cs" />
     <Compile Include="Models\MaterialType.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

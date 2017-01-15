@@ -1,5 +1,6 @@
 ﻿namespace OOPFromScratch.Engine.Factories
 {
+    using Models;
     using OOPFromScratch.Interfaces;
     using OOPFromScratch.Interfaces.Engine;
 
