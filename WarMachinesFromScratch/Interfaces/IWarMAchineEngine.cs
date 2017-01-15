@@ -1,6 +1,6 @@
 ﻿namespace WarMachinesFromScratch.Interfaces
 {
-    public interface IWarMAchineEngine
+    public interface IWarMachineEngine
     {
         void Start();
     }
