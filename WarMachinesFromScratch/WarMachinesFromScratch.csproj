@@ -50,6 +50,7 @@
     <Compile Include="Interfaces\IPilot.cs" />
     <Compile Include="Interfaces\ITank.cs" />
     <Compile Include="Interfaces\IWarMAchineEngine.cs" />
+    <Compile Include="Models\Machine.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,7 +60,6 @@
   <ItemGroup>
     <Folder Include="Common\" />
     <Folder Include="Engine\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
