@@ -7,13 +7,13 @@ using WarMachinesFromScratch.Interfaces;
 
 namespace WarMachinesFromScratch.Models
 {
-    class Tank : Machine, IMachine, ITank
+    public class Tank : Machine, IMachine, ITank
     {
         private const int TankHealt = 100;
         private const int TankAttack = 40;
         private const int TackDefence = 30;
 
-        protected Tank(string name, double attackPonts, double defencePoints, double healtPoints) : base(name, attackPonts, defencePoints, TankHealt)
+        public Tank(string name, double attackPonts, double defencePoints) : base(name, attackPonts, defencePoints, TankHealt)
         {
             this.ToggleDefenceMode();
         }
