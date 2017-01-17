@@ -58,6 +58,7 @@
     <Compile Include="CarsProject\Movable\Manufacturer\BMW.cs" />
     <Compile Include="CarsProject\Race.cs" />
     <Compile Include="CarsProject\Movable\Vehicle.cs" />
+    <Compile Include="CofeeProject\Cofee.cs" />
     <Compile Include="CustomSettings\Custom.cs" />
     <Compile Include="LINQProject\Linq.cs" />
     <Compile Include="Program.cs" />
