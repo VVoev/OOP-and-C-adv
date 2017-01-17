@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Homework_Defining_Classes_Part1_StudentProject
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {

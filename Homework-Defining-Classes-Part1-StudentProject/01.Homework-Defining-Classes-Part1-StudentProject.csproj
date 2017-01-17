@@ -57,7 +57,7 @@
     <Compile Include="MobileProject\GSMDetals\GSM.cs" />
     <Compile Include="MobileProject\GSMDetals\MobileDevice.cs" />
     <Compile Include="MobileProject\GsmTest.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentProject\Course.cs" />
     <Compile Include="StudentProject\Student.cs" />
