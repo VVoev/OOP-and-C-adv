@@ -14,6 +14,11 @@ namespace TestApp.Delegate
     {
         public static void Start()
         {
+            CountMe x = DelegateExample.MultiPlyByThree;
+            x += DelegateExample.MultiPlyFive;
+            x(40);
+            x(100);
+            
             CountMe d = DelegateExample.MultiPlyFive;
             d += DelegateExample.MultiPlyFive;
             d += DelegateExample.DeductByTwo;
@@ -22,7 +27,8 @@ namespace TestApp.Delegate
             Result res = DelegateExample.SayAsText;
             res("2");
             Rezil rezil = DelegateExample.MultiPly;
-            var finalRezult = rezil(66);
+            rezil += DelegateExample.MultiPlyTen;
+            var finalRezult = rezil(10);
             Console.WriteLine(finalRezult);
             ConcatName full = DelegateExample.MakeFullName;
             var name = full("Vladimir", "Voev");
@@ -48,6 +54,11 @@ namespace TestApp.Delegate
             var res = number * 3;
             return res;
         }
+        public static int MultiPlyTen(int number)
+        {
+            var res = number * 10;
+            return res;
+        }
         public static void MultiPlyFive(int number)
         {
             Console.WriteLine(number*5);
@@ -64,6 +75,11 @@ namespace TestApp.Delegate
                 default:
                     break;
             }
+        }
+
+        public static void MultiPlyByThree(int number)
+        {
+            Console.WriteLine(number*3);
         }
     }
 }
