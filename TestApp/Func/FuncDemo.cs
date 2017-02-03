@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestApp.Action;
 
 namespace TestApp.Func
 {
@@ -10,6 +11,14 @@ namespace TestApp.Func
     {
         public static void Start()
         {
+            var cat1 = new Cat(1, "Penko");
+            Func<Cat, string> changeName = (y) => y.Name = Console.ReadLine();
+            Console.WriteLine($"Current cat name is {cat1.Name} please change it to better one {(changeName(cat1))}");
+
+            var arr = new int[] { 5, 10, 15, 25 }.ToList();
+            Func<List<int>, int> findBiggest = (c) => c.Max();
+            Console.WriteLine(findBiggest(arr));
+
             Func<string, string> convertor = s => s.ToUpper();
             Console.WriteLine(convertor("BrAzIlIa"));
 
