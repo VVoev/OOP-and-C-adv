@@ -57,7 +57,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Homework-Extension-Metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Homework OOP Principles-Part 2", "Homework OOP Principles-Part 2\05.Homework OOP Principles-Part 2.csproj", "{735FF9D4-01A8-4F9D-A060-56C93D600B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{8D55B92D-DE45-4624-97FE-2080CDB331FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncActionDelegate", "TestApp\FuncActionDelegate.csproj", "{8D55B92D-DE45-4624-97FE-2080CDB331FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPFromScratch", "OOPFromScratch\OOPFromScratch.csproj", "{609B8505-1DF6-43B9-B8FC-BF867EE40FDE}"
 EndProject
